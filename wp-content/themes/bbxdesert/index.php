@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div class="jumbotron jumbotronTop">
       	<div class="container logo">
       	<br>
         <h1>Nosty, no stress!</h1>

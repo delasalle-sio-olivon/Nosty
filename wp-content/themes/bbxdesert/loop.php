@@ -21,6 +21,9 @@
     		include 'singleTitre.php';
     	break;
     	
+    	case "singleSimple.php":
+    		include 'singleSimple.php';
+    	break;
     	
     	case "default":
     		include 'single.php';
