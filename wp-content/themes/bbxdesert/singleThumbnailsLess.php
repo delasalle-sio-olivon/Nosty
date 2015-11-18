@@ -1,6 +1,6 @@
 <?php 
 /*
-Single Post Template: Thumbnails
+Single Post Template: ThumbnailsSansBord
 */
 ?>
 <div class="container container-small">
@@ -36,7 +36,7 @@ foreach($splited as $content){
 	$text = $exploded[2];
 ?>
 			<div class="col-sm-<?php echo $col;?> col-md-4">
-				<div class="thumbnail thumbnailEgal">
+				<div class="thumbnail thumbnailEgal thumbnailLess">
 					<img src="<?php echo $src;?>" alt="...">
 					<div class="caption">
 						<h2><?php echo $titre ;?></h2>
