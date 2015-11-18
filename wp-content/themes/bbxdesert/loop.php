@@ -4,7 +4,6 @@
     
     $s = new Single_Post_Template_Plugin();
     $res = $s->get_post_template2(get_the_ID());
-    echo $res;
     switch ($res) {
     	case "singleThumbnails.php":
     		include 'singleThumbnails.php'
@@ -20,7 +19,6 @@
     		;
     	break;
     }
-    echo $res;
     ?>
         
     <?php endwhile; ?>

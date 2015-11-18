@@ -41,3 +41,6 @@ footer{
 	border-top-width: 1px;
 	border-top-color: #D1D1D1 ;
 }
+.thumbnailEgal{
+	min-height: 500px;
+}
