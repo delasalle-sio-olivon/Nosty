@@ -1,5 +1,7 @@
 @import url('bootstrap/css/bootstrap.min.css');
-@import url('bootstrap/css/bootstrap-theme.css'); 
+@import url('bootstrap/css/bootstrap-theme.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
 body { 
      padding-top: 51px; 
      background-color : #EFEFEF;
@@ -15,10 +17,11 @@ body {
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 
 	background-size: cover; 
-	-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
-	-o-background-size: 100% 100%;        /* Opera 9.5 */
-	-webkit-background-size: 100% 100%;   /* Safari 3.0 */
-	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover; 
+
 	height : 600px;
 	color : white;
 }
@@ -44,6 +47,12 @@ body {
 	margin-bottom : 30px;
 	background-color : white;
 }
+
+.iconInfo{
+	margin-top :14px;
+	margin-right : 10px;
+}
+
 footer{
 	height: 250px;
 	
@@ -58,8 +67,10 @@ footer{
 	padding : 0px;
 	max-width : 300px;
 	text-align : center;
-	margin-top : 30px;
-	margin-bottom : 30px;
+	margin-top : 40px;
+	margin-bottom : 40px;
+	margin-right : auto;
+	margin-left : auto;
 }
 
 .thumbnailLess{
@@ -148,6 +159,7 @@ footer{
 	background-image: url("img/limit.png") ;
 	background-repeat:no-repeat;
 	background-position : center bottom;
+	margin-bottom : 20px;
 }
 .logo{
 	background-image: url("img/nostyLogoTransparent.png") ;
@@ -156,3 +168,11 @@ footer{
 	background-repeat:no-repeat;
 }
 
+.lignectout{
+	text-align : center;
+	font-size: 20px;
+}
+.media{
+	margin : 10px auto;
+	max-width : 800px;
+}

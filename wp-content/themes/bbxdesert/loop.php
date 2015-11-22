@@ -25,6 +25,22 @@
     		include 'singleSimple.php';
     	break;
     	
+    	case "singleMedia.php":
+    		include 'singleMedia.php';
+    	break;
+    	
+    	case "singleMedia2.php":
+    		include 'singleMedia2.php';
+    	break;
+    	
+    	case "singleMedia3.php":
+    		include 'singleMedia3.php';
+    	break;
+    	
+    	case "singleLigne.php":
+    		include 'singleLigne.php';
+    	break;
+    	
     	case "default":
     		include 'single.php';
     	break;
