@@ -35,12 +35,12 @@ foreach($splited as $content){
 	$titre = $exploded[1];
 	$text = $exploded[2];
 ?>
-			<div class="col-sm-<?php echo $col;?> col-md-4">
+			<div class="col-sm-6 col-md-<?php echo $col;?>">
 				<div class="thumbnail thumbnailEgal">
 					<img src="<?php echo $src;?>" alt="...">
 					<div class="caption">
 						<h2><?php echo $titre ;?></h2>
-						<?php echo $text;?>
+						<p><?php echo $text;?></p>
 					</div>
 				</div>
 			</div>
