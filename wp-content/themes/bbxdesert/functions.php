@@ -27,3 +27,26 @@ function wpbootstrap_scripts_with_jquery()
 	wp_enqueue_script( 'custom-script' );
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
+
+
+function jc_post_by_category($atts, $content = null) {
+	extract(shortcode_atts(array(
+			"nb" => '5',
+			"orderby" => 'post_date',
+			"order" => 'DESC',
+			"category" => '1'
+	), $atts));
+	global $post;
+	$tmp_post = $post;
+	$myposts = get_posts('showposts='.$nb.'&orderby='.$orderby.'&category='.$category);
+	$out = '<ul>';
+	foreach($myposts as $post){
+		setup_postdata( $post );
+		$out .= '<li><a href="'.get_permalink().'">'.the_title("","",false).'</a></li>';
+	}
+	$out .= '</ul>';
+	wp_reset_postdata();
+	$post = $tmp_post;
+	return $out;
+}
+add_shortcode("post-by-category", "jc_post_by_category");
