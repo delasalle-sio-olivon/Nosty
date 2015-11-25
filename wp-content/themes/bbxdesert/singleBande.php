@@ -27,7 +27,7 @@ $src = str_replace("/localhost", "", $src); //TODO : !MODIFIER LOCALHOST!
 ?>
 <div class="row bande" style="background-image: url('<?php echo $src;?>');">
 <div class="jumbotron jumbotronBande">
-      	<div class="container">
+      	<div class="container bandeMil">
       	<br>
         <h1><?php echo $all[1];?></h1>
         <br>
