@@ -123,7 +123,9 @@ footer{
 	background : none;
 	border : none;
 }
-
+.bandeMil{
+	margin : 100PX auto;
+}
 
 .simple{
 	margin-right : 0px;
@@ -176,7 +178,6 @@ footer{
 	margin : 10px auto;
 	max-width : 800px;
 }
-<<<<<<< HEAD
 
 .media-body{
 	color : #6E6E6E;
@@ -189,5 +190,4 @@ footer{
 .thumbnail .caption :not(h2){
 	color : #6E6E6E;
 }
-=======
->>>>>>> branch 'master' of https://github.com/delasalle-sio-olivon/Nosty.git
+
