@@ -1,36 +1,29 @@
 <?php 
 /*
-Single Post Template: Simple
+Single Post Template: Contact
 */
 ?>
 	
 <?php 
 
-$all = get_the_content( $more_link_text, $strip_teaser );
-
-/**
- * Filter the post content.
- *
- * @since 0.71
- *
- * @param string $content Content of the current post.
-*/
-
-$all = apply_filters( 'the_content', $all );
-$all = str_replace( ']]>', ']]&gt;', $all );
-$all = str_replace( '<p>', '', $all );
-$all = str_replace( '</p>', '', $all );
-$all = explode("[]",$all);
 ?>
-<div class="row simple">
-<div class="jumbotron jumbotronSimple">
-      	<div class="container">
-      	<br>
-        <h1><?php echo $all[0];?></h1>
-        <br>
-        <p><?php echo $all[1];?></p>
-        <br>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      	</div>
-      </div>
-</div><!-- div row -->
+<form>
+<div class="container container-small contact">
+	<h1 class="auto">Contactez-nous</h1>
+	<br>
+	<div class="input-group">
+	  <span class="input-group-addon" id="basic-addon1">@</span>
+	  <input type="text" class="form-control" placeholder="mail@mail.com" aria-describedby="basic-addon1">
+	</div> <br>
+	<div class="input-group">
+  		<span class="input-group-addon" id="basic-addon3">Sujet</span>
+  		<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+	</div>
+<br>
+	<div class="form-group">
+  		<label for="comment">Contenu :</label>
+  		<textarea class="form-control" rows="5" id="comment"></textarea>
+	</div>
+	<div class="auto"><button type="submit" class="btn btn-default">Envoyer</button></div>
+</div>
+</form>
