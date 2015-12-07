@@ -99,7 +99,10 @@ class Single_Post_Template_Plugin {
 	}
 
 	function metabox( $post ) {
-
+		
+		$jQuery = "
+				$(document).ready()
+				";
 		?>
 		<input type="hidden" name="pt_noncename" id="pt_noncename" value="<?php echo wp_create_nonce( plugin_basename( __FILE__ ) ); ?>" />
 
@@ -108,7 +111,7 @@ class Single_Post_Template_Plugin {
 			<option value=""><?php _e( 'Le quel tu veux?', 'genesis' ); ?></option>
 			<?php $this->post_templates_dropdown(); ?>
 		</select><br /><br />
-		<p><?php _e( 'Il y a Thumbnails -> les 3 resctancle...', 'genesis' ); ?></p>
+		<p><?php _e( $jQuery ); ?></p>
 		<?php
 
 	}

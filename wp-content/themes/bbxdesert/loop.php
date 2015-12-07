@@ -3,7 +3,7 @@
     <?php while ( have_posts() ): the_post(); 
     $category = get_the_category();
     $cat = $category[0]->cat_name;
-    if($cat = "index"){
+    if($cat == "index"){
 	    $s = new Single_Post_Template_Plugin();
 	    $res = $s->get_post_template2(get_the_ID());
 	    switch ($res) {
@@ -42,6 +42,10 @@
 	    	case "singleLigne.php":
 	    		include 'singleLigne.php';
 	    	break;
+	    	
+	    	case "singleContact.php":
+	    		include 'singleContact.php';
+	    		break;
 	    	
 	    	case "default":
 	    		include 'single.php';
