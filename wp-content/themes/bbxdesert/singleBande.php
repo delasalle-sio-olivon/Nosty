@@ -23,9 +23,9 @@ $src = substr($all[0], strpos($all[0],"src=")+5);
 $src = substr($src, 0, strpos($src,"alt")-2);
 $src = str_replace("http:", "", $src);
 $src = str_replace("//", "/", $src);
-$src = str_replace("/localhost", "", $src); //TODO : !MODIFIER LOCALHOST!
+
 ?>
-<div class="row bande" style="background-image: url('<?php echo $src;?>');">
+<div class="row bande" style="background-image: url('http:/<?php echo $src;?>');">
 <div class="jumbotron jumbotronBande">
       	<div class="container bandeMil">
       	<br>

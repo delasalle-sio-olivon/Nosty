@@ -161,6 +161,7 @@ footer{
 	background-image: url("img/limit.png") ;
 	background-repeat:no-repeat;
 	background-position : center bottom;
+	background-size : 35% ;
 	margin-bottom : 20px;
 }
 .logo{
@@ -181,12 +182,16 @@ footer{
 
 .media-body{
 	color : #6E6E6E;
+	text-align : justify;
 }
 
 .media-body h4{
 	color : black;
+	
 }
-
+.mediaR{
+	text-align : right;
+	}
 .thumbnail .caption :not(h2){
 	color : #6E6E6E;
 }

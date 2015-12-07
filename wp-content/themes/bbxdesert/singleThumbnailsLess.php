@@ -37,7 +37,7 @@ foreach($splited as $content){
 ?>
 			<div class="col-sm-6 col-md-<?php echo $col;?>">
 				<div class="thumbnail thumbnailEgal thumbnailLess">
-					<img src="<?php echo $src;?>" alt="...">
+					<img src="http:/<?php echo $src;?>" alt="...">
 					<div class="caption">
 						<h2><?php echo $titre ;?></h2>
 					<p><?php echo $text;?></p>

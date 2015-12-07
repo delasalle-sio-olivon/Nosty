@@ -26,19 +26,18 @@ $src = substr($all[0], strpos($all[0],"src=")+5);
 $src = substr($src, 0, strpos($src,"alt")-2);
 $src = str_replace("http:", "", $src);
 $src = str_replace("//", "/", $src);
-$src = str_replace("/localhost", "", $src); //TODO : !MODIFIER LOCALHOST!
 
 if($i%2 ==0 ){ ?>
 	
 	<div class="media">
 	
 	<div class="media-body">
-	<h4 class="media-heading"><?php echo $all[1] ;?></h4>
+	<h4 class="media-heading mediaR"><?php echo $all[1] ;?></h4>
 	    <?php echo $all[2] ;?>
 	  </div>
 	  <div class="media-right">
 	<a href="#">
-	<img class="media-object" src="<?php echo $src ;?>" alt="">
+	<img class="media-object" src="http:/<?php echo $src ;?>" alt="">
 	</a>
 	</div>
 	</div>
@@ -50,7 +49,7 @@ if($i%2 ==0 ){ ?>
 <div class="media">
   <div class="media-left">
     <a href="#">
-      <img class="media-object" src="<?php echo $src ;?>" alt="">
+      <img class="media-object" src="http:/<?php echo $src ;?>" alt="">
     </a>
   </div>
   <div class="media-body">

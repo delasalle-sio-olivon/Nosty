@@ -30,7 +30,6 @@ $all = explode("[]",$all);
         <br>
         <p><?php echo $all[1];?></p>
         <br>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
       	</div>
       </div>
 </div><!-- div row -->

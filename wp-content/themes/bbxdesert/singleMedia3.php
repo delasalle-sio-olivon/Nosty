@@ -29,7 +29,7 @@ $src = str_replace("/localhost", "", $src); //TODO : !MODIFIER LOCALHOST!
 <div class="media">
   <div class="media-left">
     <a href="#">
-      <img class="media-object" src="<?php echo $src ;?>" alt="">
+      <img class="media-object" src="http:/<?php echo $src ;?>" alt="">
     </a>
   </div>
   <div class="media-body">
