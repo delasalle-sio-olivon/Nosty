@@ -37,7 +37,7 @@ if($i%2 ==0 ){ ?>
 	  </div>
 	  <div class="media-right">
 	<a href="#">
-	<img class="media-object" src="http:<?php echo $src ;?>" alt="">
+	<img class="media-object" src="http://<?php echo $src ;?>" alt="">
 	</a>
 	</div>
 	</div>
@@ -49,7 +49,7 @@ if($i%2 ==0 ){ ?>
 <div class="media">
   <div class="media-left">
     <a href="#">
-      <img class="media-object" src="http:<?php echo $src ;?>" alt="">
+      <img class="media-object" src="http://<?php echo $src ;?>" alt="">
     </a>
   </div>
   <div class="media-body">

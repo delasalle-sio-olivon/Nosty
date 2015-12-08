@@ -24,11 +24,12 @@ $src = substr($all[0], strpos($all[0],"src=")+5);
 $src = substr($src, 0, strpos($src,"alt")-2);
 $src = str_replace("http:", "", $src);
 $src = str_replace("//", "", $src);
+
 ?>
 <div class="media">
   <div class="media-left">
     <a href="#">
-      <img class="media-object" src="http:<?php echo $src ;?>" alt="">
+      <img class="media-object" src="http://<?php echo $src ;?>" alt="">
     </a>
   </div>
   <div class="media-body">

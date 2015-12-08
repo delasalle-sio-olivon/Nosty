@@ -33,7 +33,7 @@ $src = str_replace("//", "", $src);
   </div>
   <div class="media-right">
     <a href="#">
-      <img class="media-object" src="http:<?php echo $src ;?>" alt="">
+      <img class="media-object" src="http://<?php echo $src ;?>" alt="">
     </a>
   </div>
 </div>
