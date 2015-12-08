@@ -45,13 +45,12 @@ $categories = get_categories( $args );
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img alt="Brand" src="img/logo.png"></a>
+      <a class="navbar-brand" href="index.php"><span><img alt="Brand" src="img/logo.png"> Nosty</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-      <li class="titleNav"><a href="index.php">Nosty<span class="sr-only"></span></a></li>
       <?php 
       foreach ($categories as $cat){
       	$catname = $cat->cat_name;
