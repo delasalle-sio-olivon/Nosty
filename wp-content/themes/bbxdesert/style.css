@@ -205,3 +205,10 @@ footer{
 	text-align : center;
 }
 .iconInfo{color: #778daf;}
+.navbar-brand{
+	padding-top : 3px;
+}
+.titleNav a{
+	margin-left : -20px;
+	font-size : 25px;
+}
