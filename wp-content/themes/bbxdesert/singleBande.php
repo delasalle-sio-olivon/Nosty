@@ -25,7 +25,7 @@ $src = str_replace("http:", "", $src);
 $src = str_replace("//", "", $src);
 
 ?>
-<div class="row bande" style="background-image: url('http:<?php echo $src;?>');">
+<div class="row bande" style="background-image: url('http://<?php echo $src;?>');">
 <div class="jumbotron jumbotronBande">
       	<div class="container bandeMil">
       	<br>
