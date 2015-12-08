@@ -23,7 +23,7 @@ $all = explode("[]",$all);
 $src = substr($all[0], strpos($all[0],"src=")+5);
 $src = substr($src, 0, strpos($src,"alt")-2);
 $src = str_replace("http:", "", $src);
-$src = str_replace("//", "/", $src);
+$src = str_replace("//", "", $src);
 ?>
 <div class="media">
   
