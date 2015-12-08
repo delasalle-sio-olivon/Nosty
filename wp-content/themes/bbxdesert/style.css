@@ -150,6 +150,10 @@ footer{
 	margin : auto;
 }
 
+.jumbotronSimple .container-simple p{
+	color : #6E6E6E;
+}
+
 .jumbotronSimple h1{
 	font-size: 63 px;
 	background : none;
