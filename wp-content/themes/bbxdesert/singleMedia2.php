@@ -24,7 +24,6 @@ $src = substr($all[0], strpos($all[0],"src=")+5);
 $src = substr($src, 0, strpos($src,"alt")-2);
 $src = str_replace("http:", "", $src);
 $src = str_replace("//", "/", $src);
-$src = str_replace("/localhost", "", $src); //TODO : !MODIFIER LOCALHOST!
 ?>
 <div class="media">
   
@@ -34,7 +33,7 @@ $src = str_replace("/localhost", "", $src); //TODO : !MODIFIER LOCALHOST!
   </div>
   <div class="media-right">
     <a href="#">
-      <img class="media-object" src="http:/<?php echo $src ;?>" alt="">
+      <img class="media-object" src="http:<?php echo $src ;?>" alt="">
     </a>
   </div>
 </div>
