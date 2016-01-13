@@ -11,11 +11,16 @@
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 	<?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
+    <script src="components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+<!-- Import element -->
+<link rel="import" href="components/google-map/google-map.html">
 
   </head>
 
   <body>
-
+<div id="main-site">
+<div id="main-container">
   <?php 
   $args = array(
   		'type'                     => 'post',
@@ -45,7 +50,7 @@ $categories = get_categories( $args );
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><span><img alt="Brand" src="img/logo.png"> Nosty</span></a>
+      <a class="navbar-brand" href="<?php echo get_site_url()?>"><span><img alt="Brand" src="<?php echo get_site_url();?>/img/logo.png"> Nosty</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,19 +69,19 @@ $categories = get_categories( $args );
       ?>
       </ul>
    
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+<!--       <ul class="nav navbar-nav navbar-right"> -->
+<!--         <li><a href="#">Link</a></li> -->
+<!--         <li class="dropdown"> -->
+<!--           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+<!--           <ul class="dropdown-menu"> -->
+<!--             <li><a href="#">Action</a></li> -->
+<!--             <li><a href="#">Another action</a></li> -->
+<!--             <li><a href="#">Something else here</a></li> -->
+<!--             <li role="separator" class="divider"></li> -->
+<!--             <li><a href="#">Separated link</a></li> -->
+<!--           </ul> -->
+<!--         </li> -->
+<!--       </ul> -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

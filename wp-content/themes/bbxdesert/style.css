@@ -2,11 +2,26 @@
 @import url('bootstrap/css/bootstrap-theme.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 
-body { 
-     padding-top: 51px; 
-     background-color : #EFEFEF;
-     height : 100%;
+html{
+	position : relative;
+	height : 100%;
 }
+
+body { 
+     padding-top: 51px;
+     background-color : #EFEFEF;
+     height:100%;
+  	 position: relative;
+}
+#main-site{
+	min-height:100%;
+ 	position: relative;
+}
+#main-container{
+	position : relative;
+	padding-bottom: 50px;
+}
+
 .navWidth{
 	width : 100%;
 }
@@ -53,14 +68,24 @@ body {
 	margin-right : 10px;
 }
 
-footer{
-	height: 250px;
+#footer{
+	height: 30px;;
+	width : 100%;
 	
 	background-color: white;
 	
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: #D1D1D1 ;
+	
+	position : absolute;
+	bottom : 0px;
+	
+	text-align : center;
+	
+}
+#footer p{
+	margin : 0 auto;
 }
 .thumbnailEgal{
 	min-height: 450px;
@@ -219,4 +244,8 @@ footer{
 
 .btn{
 	
+}
+
+.colorWhite{
+	color : white;
 }
