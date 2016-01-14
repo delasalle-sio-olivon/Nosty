@@ -45,6 +45,7 @@ switch ($res) {
 	case "singleEscalier.php":
 		include 'singleEscalier.php';
 		break;
+	
 	case "singleButton.php":
 		include 'singleButton.php';
 		break;
@@ -52,7 +53,7 @@ switch ($res) {
 	case "default":
 		include 'single.php';
 		break;
-
+		
 	default:
 		;
 		break;

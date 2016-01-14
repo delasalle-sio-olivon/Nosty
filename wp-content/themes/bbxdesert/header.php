@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <link rel="icon" type="image/png" href="/images/mafavicon.png" />
     <meta charset="utf-8">
     <title>Nosty no stress</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +60,7 @@ $categories = get_categories( $args );
       <?php 
       foreach ($categories as $cat){
       	$catname = $cat->cat_name;
-      	if ($catname != index && $catname !="Non classé"){
+      	if ($catname != "index" && $catname !="Non classé" && $catname !="fond"){
       		?>
       		
       		 <li><a href="index.php/nostress/<?php echo $catname; ?>/"><?php echo $catname; ?><span class="sr-only"></span></a></li>

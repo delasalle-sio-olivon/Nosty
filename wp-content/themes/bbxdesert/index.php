@@ -1,6 +1,28 @@
-<?php get_header(); ?>
+<?php get_header(); 
+
+?>
 <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="jumbotron jumbotronTop">
+
+<?php if ( have_posts() ): ?>
+  <div class="posts">
+    <?php while ( have_posts() ): the_post(); 
+    $category = get_the_category();
+    $cat = $category[0]->cat_name;
+    if($cat == "fond"){
+	    include 'singleImagePrincipal.php';
+    }
+    ?>
+        
+    <?php endwhile; ?>
+<?php endif; ?>
+      <div style="background-image: url('http://<?php echo $src;?>');background-position: center center; 
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover; 
+
+	height : 600px;
+	color : white;"class="jumbotron jumbotronTop">
       	<div class="container logo">
       	<br>
         <h1>Nosty, no stress!</h1>

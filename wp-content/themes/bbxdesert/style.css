@@ -27,18 +27,8 @@ body {
 }
 
 .jumbotronTop{
-	background-image: url("img/img.jpg");
-	background-position: center center;
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
-	background-size: cover; 
-	background-position: center center;
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
-	background-size: cover; 
 
-	height : 600px;
-	color : white;
+	
 }
 .jumbotron .container{
 	text-align: center;
