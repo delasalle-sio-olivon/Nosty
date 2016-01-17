@@ -15,7 +15,7 @@
         
     <?php endwhile; ?>
 <?php endif; ?>
-      <div style="background-image: url('http://<?php echo $src;?>');background-position: center center; 
+      <div style="background-image: url('http://<?php echo $all[0];?>');background-position: center center; 
 	background-position: center center;
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 
@@ -23,11 +23,13 @@
 
 	height : 600px;
 	color : white;"class="jumbotron jumbotronTop">
-      	<div class="container logo">
+      	<div class="container logo" style="background-image: url('http://<?php echo $all[1];?>'); background-height : 130px;
+	background-position : center 0px;
+	background-repeat:no-repeat;');">
       	<br>
-        <h1>Nosty, no stress!</h1>
+        <h1><?php echo $all[2];?></h1>
         <br>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><?php echo $all[3];?></p>
         <br>
       	</div>
       </div>
