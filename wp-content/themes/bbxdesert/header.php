@@ -76,7 +76,7 @@ $categories = get_categories( $args );
       	if ($catname != "index" && $catname !="Non classé" && $catname !="fond"){
       		?>
       		
-      		 <li><a href="<?php echo get_site_url()?>/index.php/nostress/<?php echo $catname; ?>/"><?php echo str_replace("_", " ", $catname); ?><span class="sr-only"></span></a></li>
+      		 <li><a href="<?php echo get_site_url()?>/index.php/nostress/<?php echo $catname; ?>/"><?php echo str_replace("interrogation", " ", str_replace("_", " ", $catname)); ?><span class="sr-only"></span></a></li>
       		<?php 
       	}
       }
