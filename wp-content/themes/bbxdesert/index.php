@@ -4,7 +4,6 @@
 <!-- Main hero unit for a primary marketing message or call to action -->
 
 <?php if ( have_posts() ): ?>
-  <div class="posts">
     <?php while ( have_posts() ): the_post(); 
     $category = get_the_category();
     $cat = $category[0]->cat_name;
@@ -27,9 +26,9 @@
 	background-position : center 0px;
 	background-repeat:no-repeat;');">
       	<br>
-        <h1><?php echo $all[2];?></h1>
+        <h1><?php echo $all[3];?></h1>
         <br>
-        <p><?php echo $all[3];?></p>
+        <p><?php echo $all[4];?></p>
         <br>
       	</div>
       </div>

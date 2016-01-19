@@ -51,7 +51,19 @@ $categories = get_categories( $args );
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo get_site_url()?>"><span><img alt="Brand" src="<?php echo get_site_url();?>/img/logo.png"> Nosty</span></a>
+      <?php if ( have_posts() ): ?>
+
+    <?php while ( have_posts() ): the_post(); 
+    $category = get_the_category();
+    $cat = $category[0]->cat_name;
+    if($cat == "fond"){
+	    include 'singleImagePrincipal.php';
+    }
+    ?>
+        
+    <?php endwhile; ?>
+<?php endif; ?>
+      <a class="navbar-brand" href="<?php echo get_site_url()?>"><span><img alt="Brand" src="http://<?php echo $all[2];?>"> Nosty</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
