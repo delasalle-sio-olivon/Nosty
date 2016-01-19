@@ -6,10 +6,12 @@
 <?php if ( have_posts() ): ?>
     <?php while ( have_posts() ): the_post(); 
     $category = get_the_category();
-    $cat = $category[0]->cat_name;
-    if($cat == "fond"){
-	    include 'singleImagePrincipal.php';
-    }
+
+		foreach ($category as $cat){
+		    if($cat->cat_name == "fond"){
+			    include 'singleImagePrincipal.php';
+		    }
+		}
     ?>
         
     <?php endwhile; ?>

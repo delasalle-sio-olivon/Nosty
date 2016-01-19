@@ -55,9 +55,10 @@ $categories = get_categories( $args );
 
     <?php while ( have_posts() ): the_post(); 
     $category = get_the_category();
-    $cat = $category[0]->cat_name;
-    if($cat == "fond"){
-	    include 'singleImagePrincipal.php';
+    foreach ($category as $cat){
+	    if($cat->cat_name == "fond"){
+		    include 'singleImagePrincipal.php';
+	    }
     }
     ?>
         
@@ -75,7 +76,7 @@ $categories = get_categories( $args );
       	if ($catname != "index" && $catname !="Non classé" && $catname !="fond"){
       		?>
       		
-      		 <li><a href="index.php/nostress/<?php echo $catname; ?>/"><?php echo $catname; ?><span class="sr-only"></span></a></li>
+      		 <li><a href="<?php echo get_site_url()?>/index.php/nostress/<?php echo $catname; ?>/"><?php echo str_replace("_", " ", $catname); ?><span class="sr-only"></span></a></li>
       		<?php 
       	}
       }
