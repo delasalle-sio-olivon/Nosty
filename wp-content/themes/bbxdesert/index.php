@@ -23,7 +23,7 @@
 	background-size: cover; 
 
 	height : 600px;
-	color : white;"class="jumbotron jumbotronTop">
+	color : blue;"class="jumbotron jumbotronTop">
       	<div class="container logo" style="background-image: url('http://<?php echo $all[1];?>'); background-height : 130px;
 	background-position : center 0px;
 	background-repeat:no-repeat;');">
