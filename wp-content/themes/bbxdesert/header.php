@@ -64,7 +64,7 @@ $categories = get_categories( $args );
         
     <?php endwhile; ?>
 <?php endif; ?>
-      <a class="navbar-brand" href="<?php echo get_site_url()?>"><span><img alt="Brand" src="http://<?php echo $all[2];?>"> Nosty</span></a>
+      <a class="navbar-brand" href="<?php echo get_site_url()?>"><span><img alt="Brand" src="http://<?php echo $all[2];?>"></span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
