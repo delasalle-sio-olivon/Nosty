@@ -22,8 +22,8 @@
 	background-attachment: fixed; 
 	background-size: cover; 
 
-	height : 450px;
-	color : white;"class="jumbotron jumbotronTop">
+	height : 460px;
+	color : blue;"class="jumbotron jumbotronTop">
       	<div class="container logo" style="background-image: url('http://<?php echo $all[1];?>'); background-height : 130px;
 	background-position : center 0px;
 	background-repeat:no-repeat;');">
