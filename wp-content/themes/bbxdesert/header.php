@@ -3,7 +3,7 @@
   <head>
   <link rel="icon" type="image/png" href="/images/mafavicon.png" />
     <meta charset="utf-8">
-    <title>Nosty no stress</title>
+    <title>Nosty No Stress</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Nosty Web">
     <meta name="author" content="Adrien Olivon">
