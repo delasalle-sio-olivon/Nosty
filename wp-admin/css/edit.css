@@ -270,9 +270,9 @@ ul.add-menu-item-tabs li {
 ul.category-tabs li.tabs,
 ul.add-menu-item-tabs li.tabs,
 .wp-tab-active {
-	border: 1px solid #FFFFFF;
-	border-bottom-color: #FFFFFF;
-	background-color: #FFFFFF;
+	border: 1px solid #fdfdfd;
+	border-bottom-color: #fdfdfd;
+	background-color: ##fdfdfd;
 }
 
 ul.category-tabs li,
@@ -933,8 +933,8 @@ a.post-state-format.format-link:before {
 	max-height: 200px;
 	overflow: auto;
 	padding: 0 0.9em;
-	border: solid 1px #FFFFFF;
-	background-color: #FFFFFF;
+	border: solid 1px ##fdfdfd;
+	background-color: ##fdfdfd;
 }
 
 div.tabs-panel-active {
