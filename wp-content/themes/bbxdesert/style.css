@@ -253,7 +253,7 @@ body {
 	margin :0 auto;
 	margin-top : 18px;
 	
-	white-space : no-wrap;
+	white-space: nowrap;
 }
 .navbar-default{
 	border-bottom : solid 3px white;
