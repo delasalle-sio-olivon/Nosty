@@ -252,6 +252,8 @@ body {
 	width : 80%;
 	margin :0 auto;
 	margin-top : 18px;
+	
+	white-space : no-wrap;
 }
 .navbar-default{
 	border-bottom : solid 3px white;
