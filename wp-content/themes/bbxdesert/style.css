@@ -96,7 +96,6 @@ body {
 .thumbnailLess{
 	border : none;
 	box-shadow : none;
-	background-color : #EFEFEF;
 	min-height: 10px;;
 }
 .container-small{
