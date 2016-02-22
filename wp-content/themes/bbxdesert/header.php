@@ -71,12 +71,20 @@ $categories = get_categories( $args );
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
       <?php 
+      $count = 0;
+      foreach ($categories as $cat){
+      	$catname = $cat->cat_name;
+      	if ($catname != "index" && $catname !="Non classé" && $catname !="fond"){
+      		$count++;
+      	}
+      }
+      $count = 100/$count;
       foreach ($categories as $cat){
       	$catname = $cat->cat_name;
       	if ($catname != "index" && $catname !="Non classé" && $catname !="fond"){
       		?>
       		
-      		 <li><a href="<?php echo get_site_url()?>/index.php/nostress/<?php echo $catname; ?>/"><?php echo str_replace("interrogation", "?", str_replace("_", " ", $catname)); ?><span class="sr-only"></span></a></li>
+      		 <li style='width:<?php echo $count;?>%;'><a href="<?php echo get_site_url()?>/index.php/<?php echo $catname; ?>/"><?php echo str_replace("interrogation", "?", str_replace("_", " ", $catname)); ?><span class="sr-only"></span></a></li>
       		<?php 
       	}
       }

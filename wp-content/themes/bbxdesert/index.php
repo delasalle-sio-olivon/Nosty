@@ -36,8 +36,9 @@
       </div>
 <div class="info">
 	<div class="container container-small">
-		<a href="https://www.facebook.com/Nosty-987902074600378/?fref=ts"><i class="fa fa-facebook fa-3x iconInfo"></i></a>
-		<a href="https://twitter.com/Nosty_fr"><i class="fa fa-twitter fa-3x iconInfo"></i></a>
+		<!--<a href="https://www.facebook.com/Nosty-987902074600378/?fref=ts"><i class="fa fa-facebook fa-3x iconInfo"></i></a>
+		<a href="https://twitter.com/Nosty_fr"><i class="fa fa-twitter fa-3x iconInfo"></i></a> -->
+		NOSTY
 	</div>      
 </div>
  <?php
