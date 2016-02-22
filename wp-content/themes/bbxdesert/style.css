@@ -9,7 +9,7 @@ html{
 
 body { 
      padding-top: 52px;
-     background-color : #FFFFFF;
+     background-color : white;
      height:100%;
   	 position: relative;
 }
@@ -40,8 +40,8 @@ body {
 }
 .info{
 	border-bottom-style: solid;
-	border-bottom-width : 1px;
-	border-bottom-color: #D1D1D1 ;
+	border-bottom-width : px;
+	border-bottom-color: #00325D ;
 	
 	border-top-style: solid;
 	border-top-width : 1px;
@@ -51,6 +51,12 @@ body {
 	margin-top : -30px;
 	margin-bottom : 30px;
 	background-color : white;
+}
+
+.info div{
+	text-align : center;
+	font-size : 50px;
+	color : #00325D;
 }
 
 .iconInfo{
@@ -238,6 +244,34 @@ body {
 .titleNav a{
 	margin-left : -20px;
 	font-size : 25px;
+}
+
+.navbar-nav{
+	font-size : 27px;
+
+	width : 80%;
+	margin :0 auto;
+	margin-top : 18px;
+}
+.navbar-default{
+	border-bottom : solid 3px white;
+}
+.navbar:before 
+{
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+
+    left:0px;
+    right:0px;
+    bottom:2px;
+    border-bottom:3px solid #00325D;
+}
+.navbar-default .navbar-nav>li>a{
+	color  : #00325D;
+	margin :0 auto;
+	text-align : center;
 }
 
 .btn{
