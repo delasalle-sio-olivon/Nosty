@@ -99,8 +99,7 @@ body {
 	min-height: 10px;;
 }
 .container-small{
-	padding-right : 70px;
-	padding-left : 70px;
+
 }
 .bande{
 	margin-right : 0px;
@@ -170,7 +169,6 @@ body {
 }
 
 .jumbotronSimple .container p{
-	color : #6E6E6E;
 }
 
 .jumbotronSimple h1{
@@ -210,22 +208,21 @@ body {
 }
 .media{
 	margin : 10px auto;
-	max-width : 800px;
+	max-width : 900px;
 }
 
 .media-body{
-	color : #6E6E6E;
 	text-align : justify;
 }
 
-.media-body h4{
-	color : black;
-}
 .mediaR{
-	text-align : right;
-	}
+
+}
+.media-heading{
+text-align : center;
+	font-size : 30px;
+}
 .thumbnail .caption :not(h2){
-	color : #6E6E6E;
 }
 
 .contact{
@@ -282,3 +279,8 @@ body {
 .colorWhite{
 	color : white;
 }
+
+h1, h2,.jumbotron h1, .media-heading{
+	color : #00325D;
+}
+
