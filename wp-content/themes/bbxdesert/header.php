@@ -84,7 +84,7 @@ $categories = get_categories( $args );
       	if ($catname != "index" && $catname !="Non classé" && $catname !="fond"){
       		?>
       		
-      		 <li style='width:<?php echo $count;?>%;'><a href="<?php echo get_site_url()?>/index.php/<?php echo $catname; ?>/"><?php echo str_replace("interrogation", "?", str_replace("_", " ", $catname)); ?><span class="sr-only"></span></a></li>
+      		 <li style='width:<?php echo $count;?>%;'><a href="<?php echo get_site_url()?>/page/<?php echo $catname; ?>/"><?php echo str_replace("interrogation", "?", str_replace("_", " ", $catname)); ?><span class="sr-only"></span></a></li>
       		<?php 
       	}
       }
