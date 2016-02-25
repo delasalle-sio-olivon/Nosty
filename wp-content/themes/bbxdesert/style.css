@@ -283,4 +283,11 @@ text-align : center;
 h1, h2,.jumbotron h1, .media-heading{
 	color : #00325D;
 }
-
+.navbar-toggle{
+	height : 40px ;
+	width : 30px;
+}
+.icon-bar{
+width : 39px;
+height : 3px;
+}
