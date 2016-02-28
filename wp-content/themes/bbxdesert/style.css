@@ -11,7 +11,8 @@ body {
      padding-top: 52px;
      background-color : white;
      height:100%;
-  	 position: relative;
+  	position: relative;
+   font-family: Segoe UI;
 }
 #main-site{
 	min-height:100%;
