@@ -254,18 +254,7 @@ text-align : center;
 .navbar-default{
 	border-bottom : solid 3px white;
 }
-.navbar:before 
-{
-    content:"";
-    display:block;
-    position:absolute;
-    z-index:-1;
 
-    left:0px;
-    right:0px;
-    bottom:2px;
-    border-bottom:3px solid #00325D;
-}
 .navbar-default .navbar-nav>li>a{
 	color  : #00325D;
 	margin :0 auto;
