@@ -69,11 +69,7 @@ body {
 	width : 100%;
 	
 	background-color: white;
-	
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-top-color: #D1D1D1 ;
-	
+
 	position : absolute;
 	bottom : 0px;
 	
@@ -275,9 +271,19 @@ h1, h2,.jumbotron h1, .media-heading{
 }
 .navbar-toggle{
 	height : 40px ;
-	width : 30px;
+	width : 43px;
 }
 .icon-bar{
 width : 39px;
 height : 3px;
+}
+
+.foot1{
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #F75147 ;
+	
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #F75147 ;
 }
