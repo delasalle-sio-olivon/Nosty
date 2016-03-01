@@ -1,4 +1,6 @@
-<?php if ( have_posts() ): ?>
+<?php
+query_posts( array ('posts_per_page' => -1 ) );
+if ( have_posts() ): ?>
   <div class="posts">
     <?php while ( have_posts() ): the_post(); 
     $category = get_the_category();
