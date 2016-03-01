@@ -302,6 +302,7 @@ height : 3px;
 	min-width : 330px;
 	width : 50%;
 	display : block;
+	float : left;
 }
 
 body a{
