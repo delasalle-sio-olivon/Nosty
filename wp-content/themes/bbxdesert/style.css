@@ -298,3 +298,15 @@ height : 3px;
 	font-size : 20px;
 	color : #00325D;
 }
+.media-body{
+	min-width : 330px;	
+}
+
+body a{
+	text-decoration : none !important;
+	color : #00325D !important;
+}
+body a:hover{
+	color : #00325D !important;
+	text-decoration : none !important;
+}
