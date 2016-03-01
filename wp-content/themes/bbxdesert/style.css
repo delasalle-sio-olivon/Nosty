@@ -299,7 +299,9 @@ height : 3px;
 	color : #00325D;
 }
 .media-body{
-	min-width : 330px;	
+	min-width : 330px;
+	width : 50%;
+	display : block;
 }
 
 body a{
@@ -310,9 +312,6 @@ body a:hover{
 	color : #00325D !important;
 	text-decoration : none !important;
 }
-.media-right{
-	float :left;
-}
-.media-left{
+.media-right , .media-left{
 	float :left;
 }
