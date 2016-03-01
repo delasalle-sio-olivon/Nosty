@@ -61,8 +61,11 @@ body {
 }
 
 .iconInfo{
-	margin-top :14px;
-	margin-right : 10px;
+	margin-top :10px;
+	margin-bottom :20px;
+	margin-right : 50px;
+	margin-left : 50px;
+	
 }
 
 #footer{
@@ -230,7 +233,9 @@ text-align : center;
 	margin : auto;
 	text-align : center;
 }
-.iconInfo{color: #5675ee;}
+.iconInfo{
+	font-size : 100px;
+	color: #00325D;}
 .navbar-brand{
 	padding-top : 3px;
 }
@@ -262,7 +267,7 @@ text-align : center;
 	
 }
 
-.colorWhite{
+.foot1 .colorWhite{
 	color : white;
 }
 
@@ -286,4 +291,10 @@ height : 3px;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	border-bottom-color: #F75147 ;
+	
+	margin-bottom : 5px;
+}
+.foot1 p{
+	font-size : 20px;
+	color : #00325D;
 }
