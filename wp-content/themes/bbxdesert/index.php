@@ -1,5 +1,5 @@
 <?php get_header(); 
-
+query_posts( array ('posts_per_page' => -1 ) );
 ?>
 <!-- Main hero unit for a primary marketing message or call to action -->
 
